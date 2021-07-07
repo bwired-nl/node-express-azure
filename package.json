@@ -1,14 +1,25 @@
 {
-  "name": "nodejsazure",
+  "name": "azure",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample Node.js app using Express 4",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bwired-nl/node-express-azure"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Pieter Knuvers",
+  "contributors": [
+    "PiKn <knuvers@bwired.nl> (https://www.bwired.nl)"
+  ],
+  "license": "MIT"
 }
